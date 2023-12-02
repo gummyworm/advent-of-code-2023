@@ -39,4 +39,5 @@ int main(void) {
 		sum += maxr*maxg*maxb;
 	}
 	printf("sum: %d\n", sum);
+	return fclose(f);
 }
